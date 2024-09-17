@@ -1,0 +1,5 @@
+{ 
+    "input_file": "輸入 SRT 檔案的路徑: ",
+    "target_language": "輸入目標語言代碼 (例如，'en' 表示英文，'zh-tw' 表示繁體中文): ",
+    "output_file": "輸入翻譯後的 SRT 檔案路徑 (留空則使用預設值): "
+}
