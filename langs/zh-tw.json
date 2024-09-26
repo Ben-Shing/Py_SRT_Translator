@@ -1,4 +1,9 @@
-{ 
+{
+    "arg_description":"翻譯 SRT 檔案至所選語言",
+    "arg_help_input_file":"SRT 檔案路徑",
+    "arg_help_target_language":"目標語言代碼 (例如，'en' 表示英文，'zh-tw' 表示繁體中文)",
+    "arg_help_output_file":"翻譯後的 SRT 檔案路徑。若未指定，則輸出檔案將以 '<目標語言代碼>.srt' 命名並存放在相同路徑",
+    "arg_help_list_lang":"顯示所有可用語言及其代碼",
     "input_file": "輸入 SRT 檔案的路徑: ",
     "target_language": "輸入目標語言代碼 (例如，'en' 表示英文，'zh-tw' 表示繁體中文): ",
     "output_file": "輸入翻譯後的 SRT 檔案路徑 (留空則使用預設值): "

@@ -1,4 +1,9 @@
 {
+    "arg_description":"Translate SRT subtitle files to a specified language.",
+    "arg_help_input_file":"Path to the input SRT file.",
+    "arg_help_target_language":"Target language code (e.g., 'en' for English, 'zh-tw' for Traditional Chinese).",
+    "arg_help_output_file":"Path to the output translated SRT file. If not specified, the output file will be named as '<target_language>.srt' in the same path.",
+    "arg_help_list_lang":"Show all available languages and their codes.",
     "input_file": "Enter the path to the input SRT file: ",
     "target_language": "Enter the target language code (e.g., 'en' for English, 'zh-tw' for Traditional Chinese): ",
     "output_file": "Enter the path to the output translated SRT file (leave blank for default): "
