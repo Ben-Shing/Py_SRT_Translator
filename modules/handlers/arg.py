@@ -30,6 +30,6 @@ class ArgHandler():
                 parser.print_help()
                 return
             else:
-               input_file, target_language,output_file = args.input_file, args.target_language, args.output_file
+                input_file, target_language,output_file = args.input_file, args.target_language, args.output_file
 
             translator.translate_srt_file(input_file, target_language, output_file)
